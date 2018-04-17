@@ -23,9 +23,9 @@
     <style>.hljs { background: none; }</style>
 
     <!-- This tag outputs SEO meta+structured data and other important settings -->
-    <meta name="description" content="The professional publishing platform" />
-    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="/how-to-make-site-by-jekyll" />
+    <meta name="description" content="경희대학교 게임 연구실" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.png" type="image/png" />
+    <link rel="canonical" href="http://localhost:4000/how-to-make-site-by-jekyll" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
@@ -33,8 +33,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="제킬(Jekyll)을 사용하여 페이지 유지하기" />
     <meta property="og:description" content="1. Jekyll 이 정적 사이트(Static Stie) 1.1. Jekyll 설치하기 Jekyll은 Ruby를 사용한다. 설치 또한 Ruby의 패키지 설치 관리자인 gem을 사용하기 때문에 먼저 Ruby의 설치가 필수적이다. 루비 설치하기 : 설치프로그램 다운로드 하기 1.1.1. Ruby 설치하기 설치에 gem을 사용해야 하기 때문에 Ruby를 설치해야 한다. $ gem install jekyll bundler $ jekyll new" />
-    <meta property="og:url" content="/how-to-make-site-by-jekyll" />
-    <meta property="og:image" content="/http://cfile3.uf.tistory.com/image/2333853F5836DD2807F3D8" />
+    <meta property="og:url" content="http://localhost:4000/how-to-make-site-by-jekyll" />
+    <meta property="og:image" content="http://localhost:4000/http://cfile3.uf.tistory.com/image/2333853F5836DD2807F3D8" />
     <meta property="article:publisher" content="https://www.facebook.com/ghost" />
     <meta property="article:author" content="https://www.facebook.com/ghost" />
     <meta property="article:published_time" content="2018-04-17T15:02:08+09:00" />
@@ -43,8 +43,8 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="제킬(Jekyll)을 사용하여 페이지 유지하기" />
     <meta name="twitter:description" content="1. Jekyll 이 정적 사이트(Static Stie) 1.1. Jekyll 설치하기 Jekyll은 Ruby를 사용한다. 설치 또한 Ruby의 패키지 설치 관리자인 gem을 사용하기 때문에 먼저 Ruby의 설치가 필수적이다. 루비 설치하기 : 설치프로그램 다운로드 하기 1.1.1. Ruby 설치하기 설치에 gem을 사용해야 하기 때문에 Ruby를 설치해야 한다. $ gem install jekyll bundler $ jekyll new" />
-    <meta name="twitter:url" content="/" />
-    <meta name="twitter:image" content="/http://cfile3.uf.tistory.com/image/2333853F5836DD2807F3D8" />
+    <meta name="twitter:url" content="http://localhost:4000/" />
+    <meta name="twitter:image" content="http://localhost:4000/http://cfile3.uf.tistory.com/image/2333853F5836DD2807F3D8" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="GameLab" />
     <meta name="twitter:label2" content="Filed under" />
@@ -61,18 +61,18 @@
     "publisher": {
         "@type": "Organization",
         "name": "GameLab",
-        "logo": "/assets/images/blog-icon.png"
+        "logo": "http://localhost:4000/assets/images/blog-icon.png"
     },
-    "url": "/how-to-make-site-by-jekyll",
+    "url": "http://localhost:4000/how-to-make-site-by-jekyll",
     "image": {
         "@type": "ImageObject",
-        "url": "/http://cfile3.uf.tistory.com/image/2333853F5836DD2807F3D8",
+        "url": "http://localhost:4000/http://cfile3.uf.tistory.com/image/2333853F5836DD2807F3D8",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/how-to-make-site-by-jekyll"
+        "@id": "http://localhost:4000/how-to-make-site-by-jekyll"
     },
     "description": "1. Jekyll 이 정적 사이트(Static Stie) 1.1. Jekyll 설치하기 Jekyll은 Ruby를 사용한다. 설치 또한 Ruby의 패키지 설치 관리자인 gem을 사용하기 때문에 먼저 Ruby의 설치가 필수적이다. 루비 설치하기 : 설치프로그램 다운로드 하기 1.1.1. Ruby 설치하기 설치에 gem을 사용해야 하기 때문에 Ruby를 설치해야 한다. $ gem install jekyll bundler $ jekyll new"
 }
@@ -88,6 +88,9 @@
 
     <meta name="generator" content="Jekyll 3.6.2" />
     <link rel="alternate" type="application/rss+xml" title="제킬(Jekyll)을 사용하여 페이지 유지하기" href="/feed.xml" />
+
+    <!-- 윤찬이 커스텀한 부분 -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
 
 
 </head>
@@ -106,7 +109,7 @@ into the {body} of the default.hbs template -->
     <div class="site-nav-left">
         
             
-                <a class="site-nav-logo" href="/"><img src="/assets/images/blog-icon.png" alt="GameLab" /></a>
+                <a class="site-nav-logo" href="http://localhost:4000/"><img src="/assets/images/blog-icon.png" alt="GameLab" /></a>
             
         
         
@@ -225,8 +228,8 @@ into the {body} of the default.hbs template -->
             <!-- Email subscribe form at the bottom of the page -->
             
                 <section class="subscribe-form">
-                    <h3 class="subscribe-form-title">Subscribe to GameLab</h3>
-                    <p>Get the latest posts delivered right to your inbox</p>
+                    <h3 class="subscribe-form-title">GameLab 구독하기</h3>
+                    <p>경희대학교 게임 연구실 새소식을 구독합니다.</p>
                     <form method="post" action="/subscribe/" class="">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
 
@@ -261,12 +264,12 @@ into the {body} of the default.hbs template -->
                     
                         <section class="author-card">
                             
-                                <img class="author-profile-image" src="/https://lh3.googleusercontent.com/-YZskPxkLK7Q/WtCa5HZi_EI/AAAAAAAAAXQ/eMcaLQE4czoAeA40V2ahNoUWSyyjS0OmgCEwYBhgL/w140-h140-p/2018-04-08%2B20.25.53.jpg" alt="yunchan" />
+                                <img class="author-profile-image" src="https://lh3.googleusercontent.com/-YZskPxkLK7Q/WtCa5HZi_EI/AAAAAAAAAXQ/eMcaLQE4czoAeA40V2ahNoUWSyyjS0OmgCEwYBhgL/w140-h140-p/2018-04-08%2B20.25.53.jpg" alt="yunchan" />
                             
                             <section class="author-card-content">
                                 <h4 class="author-card-name"><a href="/author/yunchan">윤찬</a></h4>
                                 
-                                    <p>An American pastor, activist, humanitarian. People know me for leading the African-American Civil Rights movement using nonviolent civil disobedience.</p>
+                                    <p>경희대학교 게임연구실 랩 관리인입니다. 현재 경희대학교 디지털콘텐츠학과 대학원에 재학중입니다.</p>
                                 
                             </section>
                         </section>
@@ -301,56 +304,144 @@ into the {body} of the default.hbs template -->
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
+                
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/usability-test-required">
+                <div class="post-card-image" style="background-image: url(https://lh3.googleusercontent.com/ZEincYPco7bP2iJ0-Ad3N9108CJgGKqT55UeEfB8cVFk7UNuWhEet2jOvF3ouCkEhZ-_i2Ugao1yX2AkGLc7DckGETDzQIpl08Z9JJNVcyYRTmjRMyycliLs-3A8FVdE3vQCMrAMCxtsL_CvkCgSWsVbnplHEGbL3o0DXlsXS2iP1bCGIZNNt5i4l6G-Ux4V7rVhdkkKEFU5IspxSibpomGQKqcCHn3VbzpAQoSjGZ8WltVQYDvR7dW6yj8lxIuUdumd-2NeKTg6DnSJQa3CqATOjnGhqB-nMuxvgzGneTgNfRxK_zqNAQFKPjn6GPmuh6c_X94kzMVWG0RuNb70kC1pqgSPFopAKXtuDozDEe4358kBUG2q6PqaJGNk9nug5ZNTGoJLCiUhQVVtbo-gWdmwdlBGNikd93B9PgBNCINZng_9uPFvU0X4knCULmBGwpGZGaf3yiZDzYozi6t_6Feg740xpQudT-LgcJu9iv8juSmVsn0t2cMnp5n3FM5Mn6TbujVuPWdR9jQNvRRSdPBOcZ42j_PmeUEnGgwFqkHTUjHlJP5rwyFv8xVas5OPx87wNe8_wdWuGEuI30EFD90QiTOqfBso1aYZycc=w1188-h561-no)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/usability-test-required">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">실험</span>
+                            
+                        
+                            
+                               <span class="post-card-tags">준비</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">로그</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">사용자 테스트를 위한 준비 작업 실시</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>## 사용자 테스트를 위한 준비 작업 실시 필요
+준비 작업중입니다.
+
+⚠️ 본 페이지는 테스트용 페이지 입니다~!
+
+![](https://lh3.googleusercontent.com/ZEincYPco7bP2iJ0-Ad3N9108CJgGKqT55UeEfB8cVFk7UNuWhEet2jOvF3ouCkEhZ-_i2Ugao1yX2AkGLc7DckGETDzQIpl08Z9JJNVcyYRTmjRMyycliLs-3A8FVdE3vQCMrAMCxtsL_CvkCgSWsVbnplHEGbL3o0DXlsXS2iP1bCGIZNNt5i4l6G-Ux4V7rVhdkkKEFU5IspxSibpomGQKqcCHn3VbzpAQoSjGZ8WltVQYDvR7dW6yj8lxIuUdumd-2NeKTg6DnSJQa3CqATOjnGhqB-nMuxvgzGneTgNfRxK_zqNAQFKPjn6GPmuh6c_X94kzMVWG0RuNb70kC1pqgSPFopAKXtuDozDEe4358kBUG2q6PqaJGNk9nug5ZNTGoJLCiUhQVVtbo-gWdmwdlBGNikd93B9PgBNCINZng_9uPFvU0X4knCULmBGwpGZGaf3yiZDzYozi6t_6Feg740xpQudT-LgcJu9iv8juSmVsn0t2cMnp5n3FM5Mn6TbujVuPWdR9jQNvRRSdPBOcZ42j_PmeUEnGgwFqkHTUjHlJP5rwyFv8xVas5OPx87wNe8_wdWuGEuI30EFD90QiTOqfBso1aYZycc=w1188-h561-no)
+테스트를 위한 콘텐츠입니다.
+
+## 콘텐츠 스크린샷 이미지들
+
+이미지들입니다.
+
+테스트용입니다.
+
+![screenshot1](https://lh3.googleusercontent.com/_3G-93kd6IaedlRzkwOUiBASKJjewUhlfPVMA4ucp2SUkJ45Yv11XXnqygmhJw5_nlqKxvoYQiPmhzU_KG9uXXxkmNbiHS1j7t7ZmCUtkmwKFrmXOkhjzZdGwPEHYm0QR2wWiOuq-Ofp5c-ClnfHYT4HTJAIREMLVdN0CujKTSCDG-fHT3mTpFe_sUaQsGFmBunTgStjgvrCveEnSUjkRfsZXztD6vg3GqQc3m69JifeMLr0a-5KZmpu3FBH5LdMYYQHeuYEApyUjjb2biqbVddDPTtg_fOyjdk2STwORwNji3sZmgBKmZoWsC2UXiIIy9FJqMNyTQb1K3gE9i-kRl86irTpSweEvfyd4Gkw-N2wdCltDPkcqIUrAfwgj0wisKvPYde77ZSMfAi-fBOh6t4ZN_N_InmgEcrR3CqfepIZMx_e_bp8pZLkJxeet2WbhRzLVuFwT4T75cnjBynyJWTvachMk8utUWEPDAUWA9rDkRYd-LIvUA9VmRQloXGsjqDhRWqTPUW7T33QOW1qWl-VvSCJ-FFpTEPmKGi6f8_xmVNuyBOSJAzhvUKRnOvVlLeIda2wsvT5xdglg2Bm19kraku_aEwLxVNlV8g=w1750-h984-no)
+*스크린샷1*
+
+
+
+![screenshot2](https://lh3.googleusercontent.com/CAyHF2YUB3zTeTleo5vQLIsLnZ_l4RgMumdEsTtafQQxBJNpUVHnc78SU0swh0RRaL08yuAfHWVz7sPHEKMGMk1R5dBYa4VdjxRDt0hFV21i1VI5XM9k9mdGuLGRsim6ziDr-Dzai4bHqlC-m-UufbQ-kTxRVy_baeRgCDm2JWruOmf2YvN7dJZVhwYpn23u1E4OMzl8T7KLkO41lpWqR0iIMIT6jL930-KD_MBwXDhkUB9URey-Aj5bWDkSfMN4kafjDS03FrkP82ryaMpBgOXn5IM56-HIW2GKfDtGAsvbrlArjbwKT3Xd47SkByR3UvBV0mkHIUYuZu5TCzz5Tmoqo-3BjbrqEP_ohfAD_JI_Ex4uLUSp2VOysm3ArDXQflt31z2MdmGg5_onGFloG6nigIJe_EdXH-AMPYDa8SfyC32LwZdPy5K2sZXlsV5Is_W38u_Nhk0IAEM8F2ah2vS76EFQQ7Fn_3oRwzi4CENUGnO9Xy9KWSNbHcNzfNVvkrZM0x_XAVib1N1cZluFytNiZOK4OYELCtrfi-mv3nq9an9B6sYVInWLVQDm7KxR4Csrqk1t8Lp3NhgB09z3UoB7o99YZ7ux5clgOrc=w1167-h504-no)
+
+![screenshot3](https://lh3.googleusercontent.com/-j9wbu9wKGtSLXhX9rsRchNQ9osbNc4HrlOLpHO1ricHFkUn-XWZRHX8UeG6nJ99Wu5-nl_p0Zly4iAQ6kHIMYThFnD7L34bpGz7F87TkNvbxX3kLiFEVM6l_EX2tY6Bm93rUD38A4wYjjYCjURZ_M9nDuM7TI32j_ZWzDpcfU_rVCrn69fUBH2uqgIIZP59UUVTWupElRMWdXacdwL5GiRBRhNbd3rUZYNHRKtKqzy3fpj0k3AjVeYz0VH6P1pvpZm1oGwPrn66REjNZFpVH70i2d0LzWcd8a-RBkdvEIQ6HGTWMqWafZeHrWA3Gl0aKq_EJjE38MA-WaJ7pLEfQIDKdPszlU3YgIzbFIFxsplCZ6QDsUSW67W49jsoajNwK-8aBAcbziiYM3k5Al4Iq-rIESYcbggQy1xMrns0T-iIWpa1nePIaye-9Pl65szxKoPxrz4WdTQQazV7Heiz_6OkTMyYKebK1vD2H5n63sHMMgEonJckFVX75v1ndbeX4a8u5wy33WdSYgEPIwBkXhYYPdmFvDMSSGfmbgT_xGYvMoKAH7J9LUAhYZCDoyJu8ABx6wQAMHjQeKFuDIMEy26vm4Zg435pjkzaOfU=w1188-h561-no)
+</p>
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                        <img class="author-profile-image" src="https://lh3.googleusercontent.com/-YZskPxkLK7Q/WtCa5HZi_EI/AAAAAAAAAXQ/eMcaLQE4czoAeA40V2ahNoUWSyyjS0OmgCEwYBhgL/w140-h140-p/2018-04-08%2B20.25.53.jpg" alt="윤찬" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/yunchan/">윤찬</a>
+                        </span>
+                    
+                
+            </footer>
+        </div>
+    </article>
+
+            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
                 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/welcome">
-                <div class="post-card-image" style="background-image: url(//assets/images/welcome.jpg)"></div>
+            <a class="post-card-image-link" href="/sewol">
+                <div class="post-card-image" style="background-image: url(http://www.onechurch.nz/files/attach/images/7344/824/005/9e434a84c90ed93563d4c4a4b03f7e9d.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/welcome">
+            <a class="post-card-content-link" href="/sewol">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Getting started</span>
+                               <span class="post-card-tags">추모</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">소식</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">Welcome to Ghost</h2>
+                    <h2 class="post-card-title">4주년.. 세월호를 추모합니다.</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>Hey! Welcome to Ghost, it’s great to have you :) We know that first impressions are important, so we’ve populated your new site with some initial Getting Started posts that will help you</p>
+                    <p>⚠️ 본 페이지는 테스트용 페이지 입니다~! 출처 : 출처 세월호 유가족, 오클랜드에서 열리는 세월호 3주기 추모행사에 함께한다. 뉴질랜드 한인모임 ‘더 좋은 세상’(대표 곽상열)과 ‘나눔 공동체 낮은 마음’(책임간사 이익형, 이하 낮은 마음)은 세월호 참사</p>
                 </section>
             </a>
             <footer class="post-card-meta">
                 
                     
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
                         
-                        <img class="author-profile-image" src="/assets/images/ghost.png" alt="Ghost" />
+                        <img class="author-profile-image" src="https://lh3.googleusercontent.com/-YZskPxkLK7Q/WtCa5HZi_EI/AAAAAAAAAXQ/eMcaLQE4czoAeA40V2ahNoUWSyyjS0OmgCEwYBhgL/w140-h140-p/2018-04-08%2B20.25.53.jpg" alt="윤찬" />
                         
                         <span class="post-card-author">
-                            <a href="/author/ghost/">Ghost</a>
+                            <a href="/author/yunchan/">윤찬</a>
                         </span>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
                     
                 
             </footer>
@@ -366,7 +457,7 @@ into the {body} of the default.hbs template -->
 <!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
 <div class="floating-header">
     <div class="floating-header-logo">
-        <a href="/">
+        <a href="http://localhost:4000/">
             
                 <img src="/assets/images/favicon.png" alt="GameLab icon" />
             
@@ -410,7 +501,7 @@ into the {body} of the default.hbs template -->
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="/">GameLab</a> &copy; 2018</section>
+                <section class="copyright"><a href="http://localhost:4000/">GameLab</a> &copy; 2018</section>
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
@@ -433,8 +524,8 @@ into the {body} of the default.hbs template -->
                 
                     <img class="subscribe-overlay-logo" src="/assets/images/blog-icon.png" alt="GameLab" />
                 
-                <h1 class="subscribe-overlay-title">Subscribe to GameLab</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+                <h1 class="subscribe-overlay-title">GameLab 구독하기</h1>
+                <p class="subscribe-overlay-description">경희대학교 게임 연구실의 새로운 소식을 빠르게 접해보세요~!</p>
                 <form method="post" action="/subscribe/" class="">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
 
@@ -449,14 +540,6 @@ into the {body} of the default.hbs template -->
         </div>
     
 
-    <!-- highlight.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
-    <script>$(document).ready(function() {
-      $('pre code').each(function(i, block) {
-        hljs.highlightBlock(block);
-      });
-    });</script>
-
     <!-- jQuery + Fitvids, which makes all video embeds responsive -->
     <script
         src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -464,8 +547,15 @@ into the {body} of the default.hbs template -->
         crossorigin="anonymous">
     </script>
     <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
 
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
 
     <!-- Paginator increased to "infinit" in _config.yml -->
     <!-- if paginator.posts  -->

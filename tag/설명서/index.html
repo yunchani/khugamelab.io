@@ -23,24 +23,24 @@
     <style>.hljs { background: none; }</style>
 
     <!-- This tag outputs SEO meta+structured data and other important settings -->
-    <meta name="description" content="The professional publishing platform" />
-    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="/tag/%EC%84%A4%EB%AA%85%EC%84%9C/" />
+    <meta name="description" content="경희대학교 게임 연구실" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.png" type="image/png" />
+    <link rel="canonical" href="http://localhost:4000/tag/%EC%84%A4%EB%AA%85%EC%84%9C/" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="GameLab" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="%ec%84%a4%eb%aa%85%ec%84%9c - GameLab" />
-    <meta property="og:description" content="The professional publishing platform" />
-    <meta property="og:url" content="/tag/%EC%84%A4%EB%AA%85%EC%84%9C/" />
-    <meta property="og:image" content="/assets/images/blog-cover.jpg" />
+    <meta property="og:description" content="경희대학교 게임 연구실" />
+    <meta property="og:url" content="http://localhost:4000/tag/%EC%84%A4%EB%AA%85%EC%84%9C/" />
+    <meta property="og:image" content="http://localhost:4000/assets/images/blog-cover.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/ghost" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="%ec%84%a4%eb%aa%85%ec%84%9c - GameLab" />
-    <meta name="twitter:description" content="The professional publishing platform" />
-    <meta name="twitter:url" content="/" />
-    <meta name="twitter:image" content="/assets/images/blog-cover.jpg" />
+    <meta name="twitter:description" content="경희대학교 게임 연구실" />
+    <meta name="twitter:url" content="http://localhost:4000/" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/images/blog-cover.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="GameLab" />
     <meta name="twitter:site" content="@tryghost" />
@@ -55,20 +55,20 @@
     "publisher": {
         "@type": "Organization",
         "name": "GameLab",
-        "logo": "/assets/images/blog-icon.png"
+        "logo": "http://localhost:4000/assets/images/blog-icon.png"
     },
-    "url": "/tag/%EC%84%A4%EB%AA%85%EC%84%9C/",
+    "url": "http://localhost:4000/tag/%EC%84%A4%EB%AA%85%EC%84%9C/",
     "image": {
         "@type": "ImageObject",
-        "url": "/assets/images/blog-cover.jpg",
+        "url": "http://localhost:4000/assets/images/blog-cover.jpg",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/tag/%EC%84%A4%EB%AA%85%EC%84%9C/"
+        "@id": "http://localhost:4000/tag/%EC%84%A4%EB%AA%85%EC%84%9C/"
     },
-    "description": "The professional publishing platform"
+    "description": "경희대학교 게임 연구실"
 }
     </script>
 
@@ -82,6 +82,9 @@
 
     <meta name="generator" content="Jekyll 3.6.2" />
     <link rel="alternate" type="application/rss+xml" title="Tag Page" href="/feed.xml" />
+
+    <!-- 윤찬이 커스텀한 부분 -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
 
 
 </head>
@@ -103,7 +106,7 @@
     <div class="site-nav-left">
         
             
-                <a class="site-nav-logo" href="/"><img src="/assets/images/blog-icon.png" alt="GameLab" /></a>
+                <a class="site-nav-logo" href="http://localhost:4000/"><img src="/assets/images/blog-icon.png" alt="GameLab" /></a>
             
         
         
@@ -222,7 +225,7 @@
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="/">GameLab</a> &copy; 2018</section>
+                <section class="copyright"><a href="http://localhost:4000/">GameLab</a> &copy; 2018</section>
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
@@ -245,8 +248,8 @@
                 
                     <img class="subscribe-overlay-logo" src="/assets/images/blog-icon.png" alt="GameLab" />
                 
-                <h1 class="subscribe-overlay-title">Subscribe to GameLab</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+                <h1 class="subscribe-overlay-title">GameLab 구독하기</h1>
+                <p class="subscribe-overlay-description">경희대학교 게임 연구실의 새로운 소식을 빠르게 접해보세요~!</p>
                 <form method="post" action="/subscribe/" class="">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
 
@@ -261,14 +264,6 @@
         </div>
     
 
-    <!-- highlight.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
-    <script>$(document).ready(function() {
-      $('pre code').each(function(i, block) {
-        hljs.highlightBlock(block);
-      });
-    });</script>
-
     <!-- jQuery + Fitvids, which makes all video embeds responsive -->
     <script
         src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -276,8 +271,15 @@
         crossorigin="anonymous">
     </script>
     <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
 
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
 
     <!-- Paginator increased to "infinit" in _config.yml -->
     <!-- if paginator.posts  -->
